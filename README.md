@@ -1,4 +1,4 @@
-<!--(https://raw.githubusercontent.com/physiopy/<reponame>/master/docs/_static/<reponame>_card.jpg)-->
+<!--(https://raw.githubusercontent.com/physiopy/phys2bids/master/docs/_static/physiopy_logo_small.png)-->
 <a name="readme"></a>
 <img alt="<reponame>" src="https://github.com/physiopy/<reponame>/blob/master/docs/_static/<reponame>_logo1280×640.png" height="150">
 
