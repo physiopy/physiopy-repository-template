@@ -52,9 +52,7 @@ More explanation coming soon.
 
 [![Auto Release](https://img.shields.io/badge/release-auto.svg?colorA=888888&colorB=9B065A&label=auto)](https://github.com/intuit/auto)
 [![Supports python version](https://img.shields.io/pypi/pyversions/<reponame>)](https://pypi.org/project/<reponame>/)
-[![Requirements Status](https://requires.io/github/physiopy/<reponame>/requirements.svg?branch=master)](https://requires.io/github/physiopy/<reponame>/requirements/?branch=master)
 
-[![Join the chat on Gitter: https://gitter.im/physiopy/<reponame>](https://badges.gitter.im/physiopy/<reponame>.svg)](https://gitter.im/physiopy/<reponame>?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
