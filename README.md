@@ -1,6 +1,6 @@
 <!--(https://raw.githubusercontent.com/physiopy/phys2bids/master/docs/_static/physiopy_logo_small.png)-->
 <a name="readme"></a>
-<img alt="repository" src="https://github.com/physiopy/phys2bids/blob/master/docs/_static/physiopy_logo1280×640.png" height="150">
+<img alt="repository" src="https://raw.githubusercontent.com/physiopy/phys2bids/master/docs/_static/physiopy_logo_small.png" height="150">
 
 This is a template for physiopy's repositories (and other repositories based on the same settings).
 
