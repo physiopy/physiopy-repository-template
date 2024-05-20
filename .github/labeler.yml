@@ -4,7 +4,7 @@ Documentation:
 
 Internal:
   - changed-files:
-      - any-glob-to-any-file: ['.*', 'codecov.yml', 'setup.cfg', 'setup.py', 'versioneer.py', '.github/*', '.circleci/*', 'physiopy-repository-template/_version.py', 'requirements.txt', 'pyproject.toml']
+      - any-glob-to-any-file: ['.*', 'codecov.yml', 'setup.cfg', 'setup.py', 'versioneer.py', '.github/*', '.circleci/*', '*/_version.py', 'requirements.txt', 'pyproject.toml']
 
 Testing:
   - changed-files:
