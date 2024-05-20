@@ -8,4 +8,4 @@ Internal:
 
 Testing:
   - changed-files:
-      - any-glob-to-any-file: ['physiopy-repository-template/tests/*', '.circleci/*']
+      - any-glob-to-any-file: ['*/tests/*', 'conftest.py', '.circleci/*']
