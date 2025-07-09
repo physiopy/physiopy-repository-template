@@ -6,9 +6,10 @@ This is a template for physiopy's repositories (and other repositories based on 
 
 Remember to change the licence as soon as you adopt the template.
 
+This repository is meant to be a template for python3 projects. If the repository you are making is more documentation focused, you may not require all the of the configurations below. 
+
 Available Configurations
 ------------------------
-This repository is meant to be a template for python3 projects.
 - CircleCI medium docker running Linux (python 3.7, 3.10, style checks, and coverage)
 - Auto release based on Github versioning with Physiopy's labels.
 - `.gitattributes` for python
@@ -21,14 +22,14 @@ This repository is meant to be a template for python3 projects.
 - Versioner
 - Issue templates (bugs, feature requests, generic)
 - PR template
-- Workflows (Auto release and PyPI upload)
+- Workflows (Auto release, PyPI upload, Auto label)
 
 Usage
 -----
 1. Find and replace the items between `<>`, for instance `<reponame>`
 2. Change licence
 3. Set up your default pushes to `origin` (`git config remote.pushDefault origin`)
-4. Finish setting up everything.
+4. Remove or add configurations; finalise set up.
 
 More explanation coming soon.
 
@@ -54,7 +55,7 @@ More explanation coming soon.
 [![Supports python version](https://img.shields.io/pypi/pyversions/<reponame>)](https://pypi.org/project/<reponame>/)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ``<reponame>`` is a python3 library meant to do something.
@@ -86,11 +87,11 @@ Check the issues with a `BrainWeb` label. Of course, they are only suggestions, 
 You can also contact us on Gitter, in the BrainHack Mattermost (<a href="https://mattermost.brainhack.org/brainhack/channels/physiopy">#physiopy</a>), and don't hesitate to contact [Stefano](https://github.com/smoia) in other ways to jump in the development!
 -->
 
+## Contributors ✨
+
 **We're looking for code contributors,** but any suggestion/bug report is welcome! Feel free to open issues!
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
