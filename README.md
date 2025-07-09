@@ -18,7 +18,7 @@ This repository is meant to be a template for python3 projects.
 - Zenodo
 - Codecov (for master branch, 90%+)
 - Python setup with `extra_require` options
-- Versioneer
+- Versioner
 - Issue templates (bugs, feature requests, generic)
 - PR template
 - Workflows (Auto release and PyPI upload)
@@ -66,10 +66,9 @@ More explanation coming soon.
 [Read the latest documentation](https://<reponame>.readthedocs.io/en/latest/) for more information on <reponame>!
 
 ## Tested OSs
-We woudl love to do that, but for teh moment we cannot support **Windows or MacOS testing**. The reason is related to the cost of running such tests: for each non-Linux test, we can run up to 8 tests on Linux instead. Partial Windows and MacOS testing might be introduced in future releases.
+We would love to do that, but for the moment we cannot support **Windows or MacOS testing**. The reason is related to the cost of running such tests: for each non-Linux test, we can run up to 8 tests on Linux instead. Partial Windows and MacOS testing might be introduced in future releases.
 
-Hence, while **we cannot ensure that <reponame> will run on Windows or MacOS**, however we don't see any reason it shouldn't.
-Besides, it will run on Windows Linux Subsistems.
+Hence, while **we cannot ensure that <reponame> will run on Windows or MacOS**, we don't see any reason it shouldn't. Besides, it will run on Windows Linux Subsystems.
 
 We apologise for the discomfort.
 
