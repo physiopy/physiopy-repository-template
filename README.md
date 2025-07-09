@@ -23,6 +23,7 @@ Available Configurations
 - Issue templates (bugs, feature requests, generic)
 - PR template
 - Workflows (Auto release, PyPI upload, Auto label)
+- Welcome bot (via `config.yml`)
 
 Usage
 -----
