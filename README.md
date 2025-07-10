@@ -19,7 +19,7 @@ Available Configurations
 - Zenodo
 - Codecov (for master branch, 90%+)
 - Python setup with `extra_require` options
-- Versioner
+- Versioneer
 - Issue templates (bugs, feature requests, generic)
 - PR template
 - Workflows (Auto release, PyPI upload, Auto label)
