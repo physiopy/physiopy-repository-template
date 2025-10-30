@@ -13,22 +13,26 @@ This repository is meant to be a template for python3 projects.
 - Auto release based on Github versioning with Physiopy's labels.
 - `.gitattributes` for python
 - `.gitignore` for python and containers
-- Pre-commit (black, isort, flake8, pydocstyle, and RST documentation)
+- Pre-commit (Ruff, codespell, and RST documentation)
 - Read the Docs (based on sphinx)
+- Duecredit
 - Zenodo
 - Codecov (for master branch, 90%+)
 - Python setup with `extra_require` options
 - Versioneer
 - Issue templates (bugs, feature requests, generic)
 - PR template
-- Workflows (Auto release and PyPI upload)
+- Workflows & Bots (Dependabot, Labeler, bot automerge, auto author assignment, Auto release, and PyPI upload)
 
 Usage
 -----
-1. Find and replace the items between `<>`, for instance `<reponame>`
-2. Change licence
-3. Set up your default pushes to `origin` (`git config remote.pushDefault origin`)
-4. Finish setting up everything.
+1. Find and replace the items between `<>`, for instance `<reponame>`, throughout all files in the repository.
+2. If using outside of physiopy, find all `physiopy`s indicating the owner in github paths, and change it to your handle
+3. Change `'physiopy/physiopy-repository-template'` in line 15 of `.github/workflows/bot.yml` into what it needs to be.
+3. Change licence and make sure to activate the licence of choice correctly.
+4. Set up your default pushes to `origin` (`git config remote.pushDefault origin`)
+5. Check setup.cfg
+6. Finish setting up everything.
 
 More explanation coming soon.
 
