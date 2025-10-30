@@ -14,23 +14,32 @@ Available Configurations
 - Auto release based on Github versioning with Physiopy's labels.
 - `.gitattributes` for python
 - `.gitignore` for python and containers
-- Pre-commit (black, isort, flake8, pydocstyle, and RST documentation)
+- Pre-commit (Ruff, codespell, and RST documentation)
 - Read the Docs (based on sphinx)
+- Duecredit
 - Zenodo
 - Codecov (for master branch, 90%+)
 - Python setup with `extra_require` options
 - Versioneer
 - Issue templates (bugs, feature requests, generic)
 - PR template
-- Workflows (Auto release, PyPI upload, Auto label)
-- Welcome bot (via `config.yml`)
+- Workflows (Auto label, bot automerge, auto author assignment, Auto release, and PyPI upload)
+- Bots (Welcome bot via `config.yml`, Dependabot)
 
 Usage
 -----
-1. Find and replace the items between `<>`, for instance `<reponame>`
-2. Change licence
-3. Set up your default pushes to `origin` (`git config remote.pushDefault origin`)
-4. Remove or add configurations; finalise set up.
+1. Start a new repository selecting this template
+2a. If using within physiopy, fork the repository and clone your fork locally as `origin`
+2b. If using alone, clone the repository locally as `origin`
+3. If using within physiopy, set the physiopy version of this repository as `upstream` 
+4. Set up your default pushes to `origin` (`git config remote.pushDefault origin`)
+5. Find and replace the items between `<>`, for instance `<reponame>`, throughout all files in the repository.
+6. If using outside of physiopy, find all `physiopy`s indicating the owner in github paths, and change it to your handle. Don't do this for your fork of a physiopy repository.
+7. Change `'physiopy/physiopy-repository-template'` in line 15 of `.github/workflows/bot.yml` into what it needs to be.
+8. Change licence and make sure to activate the licence of choice correctly.
+9. Check and set up setup.cfg
+10. Remove or add configurations; finalise set up, then push your first PR.
+
 
 More explanation coming soon.
 
