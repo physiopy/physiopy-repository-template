@@ -6,9 +6,10 @@ This is a template for physiopy's repositories (and other repositories based on 
 
 Remember to change the licence as soon as you adopt the template.
 
+This repository is meant to be a template for python3 projects. If the repository you are making is more documentation focused, you may not require all the of the configurations below. 
+
 Available Configurations
 ------------------------
-This repository is meant to be a template for python3 projects.
 - CircleCI medium docker running Linux (python 3.7, 3.10, style checks, and coverage)
 - Auto release based on Github versioning with Physiopy's labels.
 - `.gitattributes` for python
@@ -22,17 +23,23 @@ This repository is meant to be a template for python3 projects.
 - Versioneer
 - Issue templates (bugs, feature requests, generic)
 - PR template
-- Workflows & Bots (Dependabot, Labeler, bot automerge, auto author assignment, Auto release, and PyPI upload)
+- Workflows (Auto label, bot automerge, auto author assignment, Auto release, and PyPI upload)
+- Bots (Welcome bot via `config.yml`, Dependabot)
 
 Usage
 -----
-1. Find and replace the items between `<>`, for instance `<reponame>`, throughout all files in the repository.
-2. If using outside of physiopy, find all `physiopy`s indicating the owner in github paths, and change it to your handle
-3. Change `'physiopy/physiopy-repository-template'` in line 15 of `.github/workflows/bot.yml` into what it needs to be.
-3. Change licence and make sure to activate the licence of choice correctly.
+1. Start a new repository selecting this template
+2a. If using within physiopy, fork the repository and clone your fork locally as `origin`
+2b. If using alone, clone the repository locally as `origin`
+3. If using within physiopy, set the physiopy version of this repository as `upstream` 
 4. Set up your default pushes to `origin` (`git config remote.pushDefault origin`)
-5. Check setup.cfg
-6. Finish setting up everything.
+5. Find and replace the items between `<>`, for instance `<reponame>`, throughout all files in the repository.
+6. If using outside of physiopy, find all `physiopy`s indicating the owner in github paths, and change it to your handle. Don't do this for your fork of a physiopy repository.
+7. Change `'physiopy/physiopy-repository-template'` in line 15 of `.github/workflows/bot.yml` into what it needs to be.
+8. Change licence and make sure to activate the licence of choice correctly.
+9. Check and set up setup.cfg
+10. Remove or add configurations; finalise set up, then push your first PR.
+
 
 More explanation coming soon.
 
@@ -58,7 +65,7 @@ More explanation coming soon.
 [![Supports python version](https://img.shields.io/pypi/pyversions/<reponame>)](https://pypi.org/project/<reponame>/)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ``<reponame>`` is a python3 library meant to do something.
@@ -70,10 +77,9 @@ More explanation coming soon.
 [Read the latest documentation](https://<reponame>.readthedocs.io/en/latest/) for more information on <reponame>!
 
 ## Tested OSs
-We woudl love to do that, but for teh moment we cannot support **Windows or MacOS testing**. The reason is related to the cost of running such tests: for each non-Linux test, we can run up to 8 tests on Linux instead. Partial Windows and MacOS testing might be introduced in future releases.
+We would love to do that, but for the moment we cannot support **Windows or MacOS testing**. The reason is related to the cost of running such tests: for each non-Linux test, we can run up to 8 tests on Linux instead. Partial Windows and MacOS testing might be introduced in future releases.
 
-Hence, while **we cannot ensure that <reponame> will run on Windows or MacOS**, however we don't see any reason it shouldn't.
-Besides, it will run on Windows Linux Subsistems.
+Hence, while **we cannot ensure that <reponame> will run on Windows or MacOS**, we don't see any reason it shouldn't. Besides, it will run on Windows Linux Subsystems.
 
 We apologise for the discomfort.
 
@@ -91,11 +97,11 @@ Check the issues with a `BrainWeb` label. Of course, they are only suggestions, 
 You can also contact us on Gitter, in the BrainHack Mattermost (<a href="https://mattermost.brainhack.org/brainhack/channels/physiopy">#physiopy</a>), and don't hesitate to contact [Stefano](https://github.com/smoia) in other ways to jump in the development!
 -->
 
+## Contributors ✨
+
 **We're looking for code contributors,** but any suggestion/bug report is welcome! Feel free to open issues!
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
